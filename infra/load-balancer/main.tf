@@ -54,7 +54,7 @@ resource "aws_lb_listener" "dev_proj_1_lb_listner" {
   }
 }
 
-# https listner on port 443
+/*# https listner on port 443
 resource "aws_lb_listener" "dev_proj_1_lb_https_listner" {
   load_balancer_arn = aws_lb.dev_proj_1_lb.arn
   port              = var.lb_https_listner_port
@@ -67,3 +67,4 @@ resource "aws_lb_listener" "dev_proj_1_lb_https_listner" {
     target_group_arn = var.lb_target_group_arn
   }
 }
+*/
